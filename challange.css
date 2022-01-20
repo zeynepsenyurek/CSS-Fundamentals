@@ -4,8 +4,14 @@ body {
   border-style: solid;
   line-height: 1.4;
 }
+.container {
+  width: 825px;
+  margin: 0 auto;
+}
+
 h1 {
   text-align: center;
+  margin: 50px;
 }
 
 p strong {
@@ -17,6 +23,7 @@ p strong {
   font-size: 10px;
   font-weight: bold;
   color: rgba(65, 65, 66, 0.74);
+  margin-bottom: 20px;
 }
 a:hover {
   text-decoration: none;
@@ -27,6 +34,7 @@ h3 {
 }
 li {
   list-style: square;
+  margin-bottom: 10px;
 }
 a {
   color: black;
@@ -39,6 +47,7 @@ button {
   padding: 5px 10px;
   text-transform: uppercase;
   cursor: pointer;
+  width: 100%;
 }
 button:hover {
   background-color: aliceblue;
