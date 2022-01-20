@@ -1,0 +1,47 @@
+body {
+  font-family: sans-serif;
+  color: rgb(51, 51, 51);
+  border-style: solid;
+  line-height: 1.4;
+}
+h1 {
+  text-align: center;
+}
+
+p strong {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+#shipping {
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: bold;
+  color: rgba(65, 65, 66, 0.74);
+}
+a:hover {
+  text-decoration: none;
+}
+h3 {
+  text-transform: uppercase;
+  font-size: 15px;
+}
+li {
+  list-style: square;
+}
+a {
+  color: black;
+}
+button {
+  background-color: black;
+  border: none;
+  color: aliceblue;
+  border: none;
+  padding: 5px 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+button:hover {
+  background-color: aliceblue;
+  color: black;
+  font-weight: bold;
+}
